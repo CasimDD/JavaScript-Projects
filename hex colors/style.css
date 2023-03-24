@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Comfortaa:wght@500&family=Delicious+Handrawn&family=Pacifico&display=swap");
+body {
+  font-family: "Caveat", cursive;
+}
+.container {
+  border: 1px solid black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hex-colors {
+  border: 1px solid red;
+  text-align: center;
+}
+
+.hex-colors h1 {
+  animation: colorchange 5s infinite alternate;
+}
+.hex-colors h2 {
+  margin-top: 55px;
+  border: 1px solid black;
+}
+@keyframes colorchange {
+  0% {
+    color: indigo;
+  }
+  20% {
+    color: blue;
+  }
+  40% {
+    color: green;
+  }
+  60% {
+    color: yellow;
+  }
+  80% {
+    color: orange;
+  }
+  100% {
+    color: red;
+  }
+}
